@@ -1,6 +1,6 @@
 # GuessFlower
 
-**Flower recognizer App** using the oxford102.caffemodel. 
+**Flower recognizer App** using the oxford102.caffemodel. The App will invoke to Wikipedia to retrieve information about the plant (if it exists)
 non-commercial purpose.
 
 *Demo*
