@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.6.0)
+  - RSLoadingView (1.1.2)
+  - SDWebImage (4.3.0):
+    - SDWebImage/Core (= 4.3.0)
+  - SDWebImage/Core (4.3.0)
+  - SimpleAnimation (0.4.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - RSLoadingView
+  - SDWebImage
+  - SimpleAnimation
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  RSLoadingView: fdfeee9968b6dad2559169a97da0ad2580371f3a
+  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
+  SimpleAnimation: a3473da5421c65100d68f98a44fc853b81091249
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 3dc7e9d0a2af57255af509890c2b13ff387043be
+
+COCOAPODS: 1.4.0

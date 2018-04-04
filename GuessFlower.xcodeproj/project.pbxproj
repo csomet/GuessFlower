@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37EE1D496D60B4FF00079253 /* Pods_GuessFlower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C30E22A271073136E6A702F /* Pods_GuessFlower.framework */; };
+		EC089D202074E1BE00A9E65B /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC089D1F2074E1BE00A9E65B /* System.swift */; };
+		EC6663F82073E681006EF319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6663F72073E681006EF319 /* AppDelegate.swift */; };
+		EC6663FA2073E681006EF319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6663F92073E681006EF319 /* ViewController.swift */; };
+		EC6663FD2073E681006EF319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6663FB2073E681006EF319 /* Main.storyboard */; };
+		EC6663FF2073E682006EF319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6663FE2073E682006EF319 /* Assets.xcassets */; };
+		EC6664022073E682006EF319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6664002073E682006EF319 /* LaunchScreen.storyboard */; };
+		ECACA5732075985B009F22E7 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = ECACA5722075985B009F22E7 /* demo.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C30E22A271073136E6A702F /* Pods_GuessFlower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessFlower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1A44514225DF1D0BDE843C /* Pods-GuessFlower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessFlower.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuessFlower/Pods-GuessFlower.release.xcconfig"; sourceTree = "<group>"; };
+		E5211317EB2F7303C73FBF6F /* Pods-GuessFlower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessFlower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuessFlower/Pods-GuessFlower.debug.xcconfig"; sourceTree = "<group>"; };
+		EC089D1F2074E1BE00A9E65B /* System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		EC6663F42073E681006EF319 /* GuessFlower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessFlower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6663F72073E681006EF319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC6663F92073E681006EF319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC6663FC2073E681006EF319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6663FE2073E682006EF319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6664012073E682006EF319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6664032073E682006EF319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECACA5722075985B009F22E7 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = demo.gif; path = ../../../../../Desktop/demo.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6663F12073E681006EF319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EE1D496D60B4FF00079253 /* Pods_GuessFlower.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D85528D5AFDE03A18938130 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5211317EB2F7303C73FBF6F /* Pods-GuessFlower.debug.xcconfig */,
+				7B1A44514225DF1D0BDE843C /* Pods-GuessFlower.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5578ABA21F5868312D93CB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C30E22A271073136E6A702F /* Pods_GuessFlower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC6663EB2073E681006EF319 = {
+			isa = PBXGroup;
+			children = (
+				EC6663F62073E681006EF319 /* GuessFlower */,
+				EC6663F52073E681006EF319 /* Products */,
+				7D85528D5AFDE03A18938130 /* Pods */,
+				D5578ABA21F5868312D93CB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6663F52073E681006EF319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6663F42073E681006EF319 /* GuessFlower.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6663F62073E681006EF319 /* GuessFlower */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D7D322075874800661A3C /* Demo */,
+				EC6D7D312075849700661A3C /* View */,
+				EC6D7D302075849200661A3C /* Controller */,
+				EC6D7D2F2075848B00661A3C /* Model */,
+				EC6663F72073E681006EF319 /* AppDelegate.swift */,
+				EC089D1F2074E1BE00A9E65B /* System.swift */,
+				EC6664032073E682006EF319 /* Info.plist */,
+			);
+			path = GuessFlower;
+			sourceTree = "<group>";
+		};
+		EC6D7D2F2075848B00661A3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC6D7D302075849200661A3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC6663F92073E681006EF319 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC6D7D312075849700661A3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC6663FE2073E682006EF319 /* Assets.xcassets */,
+				EC6664002073E682006EF319 /* LaunchScreen.storyboard */,
+				EC6663FB2073E681006EF319 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC6D7D322075874800661A3C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ECACA5722075985B009F22E7 /* demo.gif */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6663F32073E681006EF319 /* GuessFlower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6664062073E682006EF319 /* Build configuration list for PBXNativeTarget "GuessFlower" */;
+			buildPhases = (
+				8C962D3DDCC53AA794696859 /* [CP] Check Pods Manifest.lock */,
+				EC6663F02073E681006EF319 /* Sources */,
+				EC6663F12073E681006EF319 /* Frameworks */,
+				EC6663F22073E681006EF319 /* Resources */,
+				91EDC286ECA5D8D45113F11B /* [CP] Embed Pods Frameworks */,
+				73C12BF06E5BAB723BADC932 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessFlower;
+			productName = GuessFlower;
+			productReference = EC6663F42073E681006EF319 /* GuessFlower.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6663EC2073E681006EF319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Carlos H Somet";
+				TargetAttributes = {
+					EC6663F32073E681006EF319 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = EC6663EF2073E681006EF319 /* Build configuration list for PBXProject "GuessFlower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6663EB2073E681006EF319;
+			productRefGroup = EC6663F52073E681006EF319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6663F32073E681006EF319 /* GuessFlower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6663F22073E681006EF319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6664022073E682006EF319 /* LaunchScreen.storyboard in Resources */,
+				ECACA5732075985B009F22E7 /* demo.gif in Resources */,
+				EC6663FF2073E682006EF319 /* Assets.xcassets in Resources */,
+				EC6663FD2073E681006EF319 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73C12BF06E5BAB723BADC932 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuessFlower/Pods-GuessFlower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C962D3DDCC53AA794696859 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessFlower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EDC286ECA5D8D45113F11B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GuessFlower/Pods-GuessFlower-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RSLoadingView/RSLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleAnimation/SimpleAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuessFlower/Pods-GuessFlower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6663F02073E681006EF319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC089D202074E1BE00A9E65B /* System.swift in Sources */,
+				EC6663FA2073E681006EF319 /* ViewController.swift in Sources */,
+				EC6663F82073E681006EF319 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC6663FB2073E681006EF319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6663FC2073E681006EF319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC6664002073E682006EF319 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6664012073E682006EF319 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6664042073E682006EF319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC6664052073E682006EF319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6664072073E682006EF319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5211317EB2F7303C73FBF6F /* Pods-GuessFlower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VPSVC4NW9;
+				INFOPLIST_FILE = GuessFlower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.csomet.GuessFlower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EC6664082073E682006EF319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1A44514225DF1D0BDE843C /* Pods-GuessFlower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VPSVC4NW9;
+				INFOPLIST_FILE = GuessFlower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.csomet.GuessFlower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6663EF2073E681006EF319 /* Build configuration list for PBXProject "GuessFlower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6664042073E682006EF319 /* Debug */,
+				EC6664052073E682006EF319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6664062073E682006EF319 /* Build configuration list for PBXNativeTarget "GuessFlower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6664072073E682006EF319 /* Debug */,
+				EC6664082073E682006EF319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6663EC2073E681006EF319 /* Project object */;
+}
