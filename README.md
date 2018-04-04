@@ -5,7 +5,7 @@ non-commercial purpose.
 
 *Demo*
 
-<img src="/Demo/demo.gif?raw=true">
+<img src="GuessFlower/Demo/demo.gif?raw=true">
 
 ## 📝Specs 
 Swift 4.0 Xcode 9.3 (9E145)
