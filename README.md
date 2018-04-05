@@ -25,7 +25,7 @@ GuessFlower uses a few cocoapods to work:
 - [Cocoapods SwiftyJSON](Pods/SwiftyJSON/README.md)
 - [Cocoapods SDWebImage](Pods/SDWebImage/README.md)
 - [Cocoapods SimpleAnimation](Pods/SimpleAnimation/README.md)
-- [Cocoapods RSLoadingView](Pods/SimpleAnimation/README.md)
+- [Cocoapods RSLoadingView](Pods/RSLoadingView/README.md)
 
 
 ### 👤Author
