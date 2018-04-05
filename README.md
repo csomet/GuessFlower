@@ -11,7 +11,7 @@ non-commercial purpose.
 Swift 4.0 Xcode 9.3 (9E145)
 
 ## 👉🏻USAGE:
-- Run pod install on workingspace.
+- Run pod install on workingspace (if needed)
 - Download oxford102.caffemodel and convert it to mlmodel using python enviroment.
 - Copy the mlmodel file to 'Model' folder in Xcode.
 
